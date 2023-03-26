@@ -7,9 +7,9 @@
   write output to stdout, the standard output stream
   format is a character string. The format string is composed of zero or more directives. 
 * See man 3 printf for more detail. You need to handle the following conversion specifiers:
- * c
- * s
- * %
+  * c
+  * s
+  * %
 * You don’t have to reproduce the buffer handling of the C library printf function
 * You don’t have to handle the flag characters
 * You don’t have to handle field width
@@ -18,8 +18,8 @@
 
 1. Handle the following conversion specifiers:
 
-* d
-* i
+  * d
+  * i
 * You don’t have to handle the flag characters
 * You don’t have to handle field width
 * You don’t have to handle precision
@@ -31,10 +31,10 @@
 
 3. Handle the following conversion specifiers:
 
-* u
-* o
-* x
-* X
+  * u
+  * o
+  * x
+  * X
 * You don’t have to handle the flag characters
 * You don’t have to handle field width
 * You don’t have to handle precision
@@ -56,14 +56,14 @@
 
 7. Handle the following flag characters for non-custom conversion specifiers:
 
-* +
+* '+'
 * space
-* #
+* '#'
 
 8. Handle the following length modifiers for non-custom conversion specifiers:
 
-* l
-* h
+ * l
+ * h
 * Conversion specifiers to handle: d, i, u, o, x, X
 
 9. Handle the field width for non-custom conversion specifiers.
